@@ -4,6 +4,16 @@ $fontBold: 'Raleway', sans-serif;
 $fontType: 'Roboto Mono', monospace;
 $textGray: #b8b8b8;
 
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+  text-decoration: none;
+}
+
 
 #nav {
   width: 25%;
@@ -70,12 +80,12 @@ $textGray: #b8b8b8;
   .images {
     z-index: 8;
     top: 20vh;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     display: block;
     position: relative;
     img {
-      width: 40%;
+      width: 49%;
     }
   }
 }

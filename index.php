@@ -1,3 +1,19 @@
+<?php
+
+   include('connect.php');
+   // include('arrays.php');
+
+   // Step 2: Preform Database Query
+   $query = "SELECT * FROM portfolio";
+   $result = mysqli_query($connection, $query);
+   // Check there are no errors with our SQL statement
+   if (!$result) {
+     die ("Database query failed.");
+   }
+
+?>
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -60,7 +76,7 @@
       </div>
       <div id="dpInfo">
       <h1>datPiff Redesign</h1>
-        <p class="dpP">	A site redesign for datPiff. datPiff is a mixtpe sharing site. Many well known artists release their music on datPiff. The site focuses on allowing users to discover and share new music. The goal of my redesign was to centralize that focus even more. I created a more streamlined experience for users.</p>
+        <p class="dpP">	A site redesign for datPiff. datPiff is a mixtpe sharing site. Many well known artists release their music on datPiff. The site focuses on allowing users to discover and share new music. The goal of my redesign was to centralize that focus even more. I created a more streamlined experience for users. Click <a href="project.php?id=1">here</a> for more info!</p>
       </div>
     </div>
 
@@ -79,7 +95,7 @@
       </div>
       <div id="faderInfo">
         <h1>theFADER Redesign</h1>
-        <p class="faderP">	A site redesign for theFADER. FADER is a pop culture magazine focusing on music and fashion. They have become a well known publication in the hip-hop, indie, and streetwear worlds. Their covers are quite prolific featuring stunning portraits of well known artists. I chose to redesign their site at three breakpoints focusing on this amazing imagery. </p>
+        <p class="faderP">	A site redesign for theFADER. FADER is a pop culture magazine focusing on music and fashion. They have become a well known publication in the hip-hop, indie, and streetwear worlds. Their covers are quite prolific featuring stunning portraits of well known artists. I chose to redesign their site at three breakpoints focusing on this amazing imagery. Click <a href="project.php?id=2">here</a> for more info! </p>
       </div>
     </div>
 
@@ -98,7 +114,7 @@
       </div>
       <div id="kanyeInfo">
         <h1>Kanye West Zodiac</h1>
-        <p class="kanyeP">	In order to gain more experience in Javascript I worked on a zodiac calculator. This calculator asks for a birth date and runs that information through several scripts that assign you to a specific Kanye West song. The site calculates your song and then presents your result with audio and video. Click <a href="project.html">here</a> for more info!</p>
+        <p class="kanyeP">	In order to gain more experience in Javascript I worked on a zodiac calculator. This calculator asks for a birth date and runs that information through several scripts that assign you to a specific Kanye West song. The site calculates your song and then presents your result with audio and video. Click <a href="project.php?id=3">here</a> for more info!</p>
       </div>
     </div>
 

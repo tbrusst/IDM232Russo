@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:700|Roboto+Mono");
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+  text-decoration: none;
+}
+
 TRANSITIONS
 .slideRight {
   opacity: 1;

@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:700|Roboto+Mono");
+a {
+  color: red;
+  text-decoration: none; }
+
+a:visited {
+  color: red;
+  text-decoration: none; }
+
 #nav {
   width: 25%;
   position: fixed;
@@ -49,11 +57,11 @@
   .images {
     z-index: 8;
     top: 20vh;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     display: block;
     position: relative; }
     .images img {
-      width: 40%; } }
+      width: 49%; } }
 
 /*# sourceMappingURL=project.css.map */
