@@ -67,7 +67,7 @@
         <div class="navBlock"><a href="#kanye"></a></div>
       </div>-->
       <div id="dpBox" class="sideBox">
-        <img src="img/datpifftextblack.png" alt="dptext">
+
       </div>
       <div id="dpImgs">
         <img id="dp1" src="img/dp1.png" alt="datpiff screenshot">
@@ -81,12 +81,13 @@
     </div>
 
     <div id="int1" class="interlude">
-      <img src="img/interlude1.jpg" alt="interlude 1">
+      <img id="bigger1" src="img/interlude<?php $random = rand(1,7); echo $random; ?>.jpg" alt="">
+      <img id="smaller1" src="img/interlude<?php $random = rand(1,7); echo $random; ?>.jpg" alt="">
     </div>
 
     <div id="fader" class="project">
       <div id="faderBox" class="sideBox">
-        <img src="img/fadertxt.png" alt="fader text">
+
       </div>
       <div id="faderImgs">
         <img id="fader1" src="img/fader1.png" alt="fader screenshot">
@@ -100,12 +101,13 @@
     </div>
 
     <div id="int2" class="interlude">
-      <img src="img/interlude2.jpg" alt="interlude 2">
+      <img id="bigger2" src="img/2interlude<?php $random = rand(1,7); echo $random; ?>.jpg" alt="">
+      <img id="smaller2" src="img/2interlude<?php $random = rand(1,7); echo $random; ?>.jpg" alt="">
     </div>
 
     <div id="kanye" class="project">
       <div id="kanyeBox" class="sideBox">
-        <img src="img/kanyetxt.png" alt="kanye text">
+
       </div>
       <div class="kanyeImgs">
         <img id="kanye1" src="img/kanye1.jpg" alt="kanye screenshot">

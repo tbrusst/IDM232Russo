@@ -1,14 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:700|Roboto+Mono");
-
-a {
-  color: red;
-  text-decoration: none;
-}
-
-a:visited {
-  color: red;
-  text-decoration: none;
-}
+.kanyeP, .dpP, .faderP {
+  font-size: 1.1rem;
+  line-height: 1.1; }
 
 TRANSITIONS
 .slideRight {
@@ -102,11 +95,11 @@ h1 {
   background-repeat: no-repeat;
   background-position: 50%; }
   .about img {
-    width: 60%;
+    width: 70%;
     position: absolute;
     left: 3vw;
     z-index: 10;
-    top: 110vh; }
+    top: 130vh; }
   .about .about2 {
     opacity: 0;
     transform: translateY(50px);
@@ -119,13 +112,13 @@ h1 {
     transform: translateX(0px); }
   .about .aboutInfo {
     position: relative;
-    left: 100vw;
+    left: 80vw;
     width: 100vw;
     height: 100vh;
     background-color: black; }
     .about .aboutInfo ul {
       position: relative;
-      top: 67vh;
+      bottom: 0;
       left: -20rem;
       text-decoration: none;
       transition: all .5s ease-out;
@@ -135,6 +128,7 @@ h1 {
       font-family: "Raleway", sans-serif; }
     .about .aboutInfo li {
       font-family: "Roboto Mono", monospace;
+      font-size: 1.4rem;
       text-decoration: none;
       list-style: none; }
       .about .aboutInfo li a {
@@ -142,16 +136,30 @@ h1 {
         color: white; }
 
 .interlude {
-  height: 100vh;
+  height: 40vh;
   width: 100vw;
   margin: 0px;
   vertical-align: top;
   overflow: hidden; }
   .interlude img {
-    position: relative;
-    width: 100%;
-    height: 100%;
+    position: absolute;
     object-fit: cover; }
+  .interlude img#bigger1 {
+    padding-top: 10vh;
+    right: 10vw;
+    width: 70%; }
+  .interlude img#smaller1 {
+    padding-top: 5vh;
+    left: 10vw;
+    width: 50%; }
+  .interlude img#bigger2 {
+    padding-top: 5vh;
+    left: 5vw;
+    width: 70%; }
+  .interlude img#smaller2 {
+    padding-top: 20vh;
+    right: 10vw;
+    width: 40%; }
 
 .project {
   margin: 0px;
@@ -225,7 +233,7 @@ h1 {
   height: 100vh;
   width: 100vw; }
   #fader #faderBox {
-    background-color: black; }
+    background-color: #e31738; }
     #fader #faderBox img {
       width: 5%;
       position: relative;
@@ -277,7 +285,7 @@ h1 {
   width: 100vw;
   background-color: white; }
   #kanye #kanyeBox {
-    background-color: black; }
+    background-color: #eac894; }
     #kanye #kanyeBox img {
       width: 5%;
       position: relative;
@@ -416,11 +424,11 @@ h1 {
     background-repeat: no-repeat;
     background-position: 50%; }
     .about img {
-      width: 50%;
+      width: 52%;
       position: absolute;
-      left: 3vw;
+      left: 20vw;
       z-index: 10;
-      top: 110vh; }
+      top: 135vh; }
     .about .about2 {
       opacity: 0;
       transform: translateY(50px);
@@ -439,8 +447,7 @@ h1 {
       background-color: black; }
       .about .aboutInfo ul {
         position: relative;
-        top: 80vh;
-        left: -20rem;
+        top: 10vh;
         text-decoration: none;
         transition: all .5s ease-out;
         opacity: 0;
@@ -456,16 +463,30 @@ h1 {
           color: white; }
 
   .interlude {
-    height: 100vh;
+    height: 50vh;
     width: 100vw;
     margin: 0px;
     vertical-align: top;
     overflow: hidden; }
     .interlude img {
-      position: relative;
-      width: 100%;
-      height: 100%;
+      position: absolute;
       object-fit: cover; }
+    .interlude img#bigger1 {
+      padding-top: 15vh;
+      right: 10vw;
+      width: 60%; }
+    .interlude img#smaller1 {
+      padding-top: 10vh;
+      left: 10vw;
+      width: 50%; }
+    .interlude img#bigger2 {
+      padding-top: 10vh;
+      left: 5vw;
+      width: 65%; }
+    .interlude img#smaller2 {
+      padding-top: 20vh;
+      right: 10vw;
+      width: 40%; }
 
   .project {
     margin: 0px;
@@ -539,7 +560,7 @@ h1 {
     height: 100vh;
     width: 100vw; }
     #fader #faderBox {
-      background-color: black; }
+      background-color: #e31738; }
       #fader #faderBox img {
         width: 5%;
         position: relative;
@@ -590,13 +611,11 @@ h1 {
     height: 100vh;
     width: 100vw;
     background-color: white; }
-    #kanye #kanyeBox {
-      background-color: black; }
-      #kanye #kanyeBox img {
-        width: 5%;
-        position: relative;
-        bottom: 15vh;
-        transform: rotate(90deg); }
+    #kanye #kanyeBox img {
+      width: 5%;
+      position: relative;
+      bottom: 15vh;
+      transform: rotate(90deg); }
     #kanye .kanyeImgs {
       position: relative;
       left: -10rem;
@@ -769,16 +788,30 @@ h1 {
           color: white; }
 
   .interlude {
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
     margin: 0px;
     vertical-align: top;
     overflow: hidden; }
     .interlude img {
-      position: relative;
-      width: 100%;
-      height: 100%;
+      position: absolute;
       object-fit: cover; }
+    .interlude img#bigger1 {
+      padding-top: 15vh;
+      right: 10vw;
+      width: 60%; }
+    .interlude img#smaller1 {
+      padding-top: 10vh;
+      left: 10vw;
+      width: 50%; }
+    .interlude img#bigger2 {
+      padding-top: 15vh;
+      left: 5vw;
+      width: 65%; }
+    .interlude img#smaller2 {
+      padding-top: 20vh;
+      right: 10vw;
+      width: 40%; }
 
   .project {
     margin: 0px;
@@ -851,7 +884,7 @@ h1 {
     height: 100vh;
     width: 100vw; }
     #fader #faderBox {
-      background-color: black; }
+      background-color: #e31738; }
       #fader #faderBox img {
         width: 5%;
         position: relative;
@@ -901,13 +934,11 @@ h1 {
     height: 100vh;
     width: 100vw;
     background-color: white; }
-    #kanye #kanyeBox {
-      background-color: black; }
-      #kanye #kanyeBox img {
-        width: 5%;
-        position: relative;
-        bottom: 15vh;
-        transform: rotate(90deg); }
+    #kanye #kanyeBox img {
+      width: 5%;
+      position: relative;
+      bottom: 15vh;
+      transform: rotate(90deg); }
     #kanye .kanyeImgs {
       position: relative;
       left: -10rem;
@@ -1080,16 +1111,30 @@ h1 {
           color: white; }
 
   .interlude {
-    height: 100vh;
+    height: 85vh;
     width: 100vw;
     margin: 0px;
     vertical-align: top;
     overflow: hidden; }
     .interlude img {
-      position: relative;
-      width: 100%;
-      height: 100%;
+      position: absolute;
       object-fit: cover; }
+    .interlude img#bigger1 {
+      padding-top: 15vh;
+      right: 10vw;
+      width: 60%; }
+    .interlude img#smaller1 {
+      padding-top: 10vh;
+      left: 10vw;
+      width: 50%; }
+    .interlude img#bigger2 {
+      padding-top: 15vh;
+      left: 5vw;
+      width: 65%; }
+    .interlude img#smaller2 {
+      padding-top: 20vh;
+      right: 10vw;
+      width: 40%; }
 
   .project {
     margin: 0px;
@@ -1161,7 +1206,7 @@ h1 {
     height: 100vh;
     width: 100vw; }
     #fader #faderBox {
-      background-color: black; }
+      background-color: #e31738; }
       #fader #faderBox img {
         width: 5%;
         position: relative;
@@ -1210,13 +1255,11 @@ h1 {
     height: 100vh;
     width: 100vw;
     background-color: white; }
-    #kanye #kanyeBox {
-      background-color: black; }
-      #kanye #kanyeBox img {
-        width: 5%;
-        position: relative;
-        bottom: 15vh;
-        transform: rotate(90deg); }
+    #kanye #kanyeBox img {
+      width: 5%;
+      position: relative;
+      bottom: 15vh;
+      transform: rotate(90deg); }
     #kanye .kanyeImgs {
       position: relative;
       left: -8rem;
@@ -1393,10 +1436,24 @@ h1 {
     vertical-align: top;
     overflow: hidden; }
     .interlude img {
-      position: relative;
-      width: 100%;
-      height: 100%;
+      position: absolute;
       object-fit: cover; }
+    .interlude img#bigger1 {
+      padding-top: 15vh;
+      right: 10vw;
+      width: 60%; }
+    .interlude img#smaller1 {
+      padding-top: 10vh;
+      left: 10vw;
+      width: 50%; }
+    .interlude img#bigger2 {
+      padding-top: 15vh;
+      left: 5vw;
+      width: 65%; }
+    .interlude img#smaller2 {
+      padding-top: 20vh;
+      right: 10vw;
+      width: 40%; }
 
   .project {
     margin: 0px;
@@ -1470,7 +1527,7 @@ h1 {
     height: 100vh;
     width: 100vw; }
     #fader #faderBox {
-      background-color: black; }
+      background-color: #e31738; }
       #fader #faderBox img {
         height: 80%;
         position: absolute;
@@ -1520,14 +1577,12 @@ h1 {
     height: 100vh;
     width: 100vw;
     background-color: white; }
-    #kanye #kanyeBox {
-      background-color: black; }
-      #kanye #kanyeBox img {
-        height: 50%;
-        position: absolute;
-        left: -2vw;
-        width: auto;
-        transform: rotate(0deg); }
+    #kanye #kanyeBox img {
+      height: 50%;
+      position: absolute;
+      left: -2vw;
+      width: auto;
+      transform: rotate(0deg); }
     #kanye .kanyeImgs {
       position: relative;
       left: -15rem;

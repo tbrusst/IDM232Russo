@@ -30,7 +30,7 @@
   </head>
   <body>
 
-    <a href="index.html"><img id="nav" src="img/logo.png" alt=""></a>
+    <a href="index.php"><img id="nav" src="img/logo.png" alt=""></a>
 
 
       <?php
